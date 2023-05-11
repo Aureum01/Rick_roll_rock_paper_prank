@@ -1,0 +1,37 @@
+body {
+    background-color: #f0e6ff; /* Soft purple background */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #2a2b2d; /* Dark text color */
+}
+
+.scoreboard,
+.countdown {
+    background-color: #ffffff;
+    border: 2px solid #2a2b2d;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn-rock,
+.btn-paper,
+.btn-scissors {
+    background-color: #a4b0f5; /* Soft blue color */
+    color: #2a2b2d;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-rock:hover,
+.btn-paper:hover,
+.btn-scissors:hover {
+    background-color: #ffffff;
+    color: #2a2b2d;
+    box-shadow: 0 0 10px 3px #f5c948; /* Gold glow effect */
+}
+
+.modal-content {
+    background-color: #f0e6ff;
+    color: #2a2b2d;
+}
