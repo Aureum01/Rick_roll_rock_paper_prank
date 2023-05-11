@@ -1,0 +1,11 @@
+body {
+    background-color: #f0e6ff; /* Soft purple background */
+    font-family: 'Roboto', sans-serif;
+}
+
+#customVideo {
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 75%);
+    width: 200px;
+    height: 150px;
+}
