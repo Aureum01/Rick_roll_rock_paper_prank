@@ -1,0 +1,27 @@
+body {
+    background-color: #f0e6ff; /* Soft purple background */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #2a2b2d; /* Dark text color */
+    animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+    0% { color: #2a2b2d; }
+    50% { color: #a4b0f5; }
+    100% { color: #2a2b2d; }
+}
+
+.btn-continue {
+    background-color: #a4b0f5; /* Soft blue color */
+    color: #2a2b2d;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.btn-continue:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s;
+}
